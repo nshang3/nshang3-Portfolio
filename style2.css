@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(EightBells.jpg);
+  height: 100%;
+  background-size:cover;
+  background-attachment: fixed;
+  opacity: 0.80;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  border-radius: 1.5em;
+  color: white;
+  background-color: hsl(219, 23%, 24%);
+  padding:1em
+  
+
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: hsl(219, 23%, 24%);
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+  color:white;
+}
+
+.experience{
+  margin: 1em;
+}
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  border-radius: 1em;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: hsl(209, 15%, 40%);
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  margin: 1em;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
